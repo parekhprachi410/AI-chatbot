@@ -1,0 +1,93 @@
+body
+{
+    margin: 0;
+    font-family: Arial;
+    background-color: #ffd6e7;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h1
+{
+    text-align: center;
+    color: #d63384;
+}
+
+#chat-box
+{
+    height: 500px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.user-message
+{
+    background: #f8bbd0;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.ai-message
+{
+    background: #e1bee7;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.input-area
+{
+    display: flex;
+    margin-top: 15px;
+}
+
+input
+{
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button
+{
+    margin-left: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #d63384;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.message-content
+{
+    margin-top: 8px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre
+{
+    background-color: #2d2d2d;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+code
+{
+    font-family: Consolas, monospace;
+}
